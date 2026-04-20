@@ -1,0 +1,4 @@
+# Redirect root URL to dashboard
+root_redirect:
+    path: /
+    controller: App\Controller\DashboardController::index
