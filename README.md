@@ -11,7 +11,7 @@ Your goal is to **create your own Docker setup** — not copy one.
 Clone this repository from GitHub:
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Souri-Dev/platform-dockerfile-activity.git
 cd <project-folder>
 ```
 
