@@ -1,0 +1,53 @@
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Development files
+node_modules/
+npm-debug.log
+yarn-error.log
+.env.local
+.env.*.local
+
+# Test files
+tests/
+phpunit.xml
+phpunit.dist.xml
+.phpunit.cache/
+
+# Build and cache
+dist/
+build/
+.cache/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Docker compose files (development only)
+docker-compose.override.yaml
+compose-disable.yaml
+compose.override-disable.yaml
+
+# Misc
+.editorconfig
+.gitpod.yml
+Makefile
